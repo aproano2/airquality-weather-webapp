@@ -36,7 +36,7 @@ class Point(Base):
     station = relationship(Station)
 
 
-        @property
+    @property
     def serialize(self):
         """Return object data in easily serializeable format"""
         return {
